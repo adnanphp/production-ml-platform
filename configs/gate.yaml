@@ -1,0 +1,6 @@
+# Promotion rule thresholds. Change here, not in code.
+recall_min: 0.85
+ece_max: 0.05
+p99_latency_ms_max: 100.0
+margin_vs_incumbent_min: 0.02   # absolute recall improvement required
+ece_bins: 10                     # Q2 answer

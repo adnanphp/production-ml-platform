@@ -1,0 +1,7 @@
+# Q3: KS per feature (p-value) + mean-shift guard at 2 sigma.
+# Drift fires if KS fires on >= ks_min_features OR any |mean_shift| > mean_shift_sigma.
+ks_alpha: 0.01
+ks_min_features: 2
+mean_shift_sigma: 2.0
+window_size: 200                 # rolling window of incoming samples
+feature_names: ["f0", "f1", "f2", "f3"]

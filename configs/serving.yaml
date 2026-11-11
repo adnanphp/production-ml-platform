@@ -1,0 +1,7 @@
+# Serving config. Router reads this at startup.
+incumbent_weight: 0.90          # fraction of traffic to incumbent
+candidate_weight: 0.10          # remainder goes to candidate
+model_dir: models               # where incumbent/ and candidates/ live
+incumbent_name: incumbent
+request_timeout_s: 2.0
+latency_window: 500             # rolling window size for percentile stats

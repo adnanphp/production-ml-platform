@@ -13,3 +13,6 @@ data/reference/*
 .pytest_cache/
 .coverage
 htmlcov/
+*.egg-info/
+build/
+dist/

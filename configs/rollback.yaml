@@ -1,0 +1,5 @@
+# Automatic rollback triggers. Any one firing triggers a rollback.
+p50_latency_ms_max: 200.0
+error_rate_max: 0.01
+window_seconds: 300              # 5-minute sliding window (per DESIGN.md §3)
+# Drift threshold reuses configs/drift.yaml; drift.fires is the input here.

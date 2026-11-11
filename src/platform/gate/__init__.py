@@ -1,12 +1,4 @@
-"""Evaluation gate. Implementation lands in Phase 1."""
-from dataclasses import dataclass
+from src.platform.gate.evaluate import Decision, evaluate_candidate
+from src.platform.gate.calibration import expected_calibration_error
 
-
-@dataclass
-class Decision:
-    status: str      # "PROMOTE" | "REJECT"
-    reason: str
-
-
-def evaluate_candidate(candidate: dict, incumbent: dict | None) -> Decision:
-    raise NotImplementedError("Phase 1: implement the promotion rule from DESIGN.md")
+__all__ = ["Decision", "evaluate_candidate", "expected_calibration_error"]
