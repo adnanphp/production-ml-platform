@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.db
+*.sqlite
+mlruns/
+data/validation/*
+!data/validation/.gitkeep
+data/reference/*
+!data/reference/.gitkeep
+.pytest_cache/
+.coverage
+htmlcov/
