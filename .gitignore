@@ -16,3 +16,9 @@ htmlcov/
 *.egg-info/
 build/
 dist/
+data/validation/*.parquet
+data/reference/*.parquet
+data/incoming/
+models/incumbent/*.pkl
+models/candidates/**/*.pkl
+registry.db
